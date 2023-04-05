@@ -1,0 +1,25 @@
+name: CommandPlugin
+version: '${version}'
+main: me.mekb.commandplugin.CommandPlugin
+load: POSTWORLD
+commands:
+  gamemode:
+    description: Sets your gamemode
+    usage: /<command> <mode>
+    permission: commandplugin.gamemode
+    aliases:
+      - gm
+      - gms
+      - gm0
+      - gmc
+      - gm1
+      - gma
+      - gm2
+      - gmsp
+      - gm3
+  give:
+    description: Gives you an item
+    usage: /<command> <item> [amount] [data]
+    permission: commandplugin.give
+    aliases:
+      - g
